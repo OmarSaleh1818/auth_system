@@ -40,12 +40,12 @@
             @endif
             <x-primary-button class="ml-4">
                 <a href="{{ url('/register') }}">
-                    Register
+                    Sign-Up
                 </a>
             </x-primary-button>
 
             <x-primary-button class="ml-3">
-                {{ __('Log in') }}
+                {{ __('Sign In') }}
             </x-primary-button>
         </div>
     </form>
